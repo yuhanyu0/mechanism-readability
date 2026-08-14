@@ -1,0 +1,65 @@
+{
+  "artifact_version": "0.1.0-public",
+  "files": {
+    ".gitignore": {
+      "sha256": "edcd29509c4be2a5a42c158ee0b1764b66f2e80640497faf7eaca277b714fb64",
+      "bytes": 46
+    },
+    "CITATION.cff": {
+      "sha256": "39d70cb65d113e9cba05a3935db391e4b4f5268039f434e85191126df546b892",
+      "bytes": 503
+    },
+    "CLAIM_BOUNDARY.md": {
+      "sha256": "2c766042175385d45116014c0e65de67eb6b3584ac86100505c253e41f679e1c",
+      "bytes": 1555
+    },
+    "DATA_PROVENANCE.md": {
+      "sha256": "a140f964259a4bd89a6b866345e71e1408b5f488a91f7396a94f25d591156619",
+      "bytes": 862
+    },
+    "LICENSE_DECISION.md": {
+      "sha256": "8b0c22322932311c5275c9f212ac74e784b8f6c8c8f8810d7d862ca94dd7a6b2",
+      "bytes": 574
+    },
+    "README.md": {
+      "sha256": "7abac357c1210f406a225f4163592b110a8c140b1965b31dfee4e52e64fb3294",
+      "bytes": 6365
+    },
+    "REPRODUCIBILITY.md": {
+      "sha256": "0f3d397d3246892aef2aadd8b20eb27ad4d4c53d5546b91adaa91913e40ac78c",
+      "bytes": 1247
+    },
+    "figures/mechanism_readability_overview.svg": {
+      "sha256": "9bd8ea52ef7d516242366ac47ab0cf4bd939ea3f191264f328c095b630d292b4",
+      "bytes": 2492
+    },
+    "protocols/R12CB_PREREGISTRATION_NOTE.md": {
+      "sha256": "ea1e24a049b025128fff603ae8d352d884de8076e9b25110524c3366e5d36393",
+      "bytes": 2552
+    },
+    "results/R10B1_CONSERVATIVE_REVIEW.md": {
+      "sha256": "d48d9e1226ac8b4898d94fe49694677c6800dc91320cfd1c6769ebde5187a8b0",
+      "bytes": 4750
+    },
+    "results/R10C_DECISION.md": {
+      "sha256": "64b839d94bb659237dde6bd3def29d723825e9e9ba3bf87ba3041b9c1f60aca5",
+      "bytes": 1278
+    },
+    "results/R12CB_PRIMARY_MINIMUM_INTERFACE_TABLE.csv": {
+      "sha256": "2fa9e7886365db67b9b732754e483a7807af82f86675be4cacbc713093a1e259",
+      "bytes": 1027
+    },
+    "results/R9_CONSERVATIVE_REVIEW.md": {
+      "sha256": "6e5183c90aec42f5382398892b00d88e0b2b211f65a81055a51c193b1abc066e",
+      "bytes": 3499
+    },
+    "results/frozen_summary.json": {
+      "sha256": "e61d34615cd184b8e82f3110ce574678726cc1de4ef4e60ed511b2ca08accaf1",
+      "bytes": 1742
+    },
+    "scripts/validate_artifact.py": {
+      "sha256": "c8454370486e94b96eaf50c897035f4ecd22f2eaead51757b37101135923b81b",
+      "bytes": 1587
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="white"/>
+<style>
+  .t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:28px;font-weight:700}.s{font-size:18px}.m{font-size:16px}.box{fill:white;stroke:#111;stroke-width:2}.line{stroke:#111;stroke-width:2;fill:none}.dash{stroke:#555;stroke-width:2;stroke-dasharray:7 7;fill:none}
+</style>
+<text x="60" y="54" class="t h">Mechanism readability under observation interfaces</text>
+<text x="60" y="87" class="t s">A predictive low-order law can transport without uniquely identifying its generator.</text>
+<rect x="60" y="135" width="285" height="210" rx="10" class="box"/>
+<text x="82" y="172" class="t s">Observed low-order law</text>
+<path d="M95 305 C145 300 185 288 220 255 C255 220 285 185 320 165" class="line"/>
+<circle cx="115" cy="301" r="4" fill="#111"/><circle cx="170" cy="286" r="4" fill="#111"/><circle cx="225" cy="250" r="4" fill="#111"/><circle cx="280" cy="195" r="4" fill="#111"/>
+<text x="82" y="330" class="t m">Thickness → steering transports</text>
+<text x="82" y="363" class="t m">External-final R² = 0.328</text>
+<path d="M365 240 L455 240" class="line"/><polygon points="455,240 442,233 442,247" fill="#111"/>
+<rect x="475" y="135" width="280" height="210" rx="10" class="box"/>
+<text x="497" y="172" class="t s">Matched mechanisms</text>
+<text x="497" y="210" class="t m">Same endpoints</text><text x="497" y="238" class="t m">Same radii / chords / angles</text><text x="497" y="266" class="t m">Same complete ρ → Ω law</text>
+<text x="497" y="310" class="t m">J0–J2 accuracy = 0.500</text>
+<path d="M775 240 L865 240" class="line"/><polygon points="865,240 852,233 852,247" fill="#111"/>
+<rect x="885" y="135" width="255" height="210" rx="10" class="box"/>
+<text x="907" y="172" class="t s">Richer interface</text>
+<path d="M930 225 C965 190 1005 190 1040 225" class="line"/><path d="M930 225 C965 260 1005 260 1040 225" class="line"/><path d="M1040 225 C1075 200 1100 195 1120 205" class="line"/>
+<text x="907" y="292" class="t m">Path + tangent history</text>
+<text x="907" y="320" class="t m">first boundary-stable diagnostic</text>
+<path d="M60 410 L1140 410" class="dash"/>
+<text x="60" y="452" class="t s">Claim boundary</text>
+<text x="200" y="452" class="t m">Does not identify the empirical generator · does not generally falsify surface optimization · does not make J3 universally sufficient</text>
+</svg>
