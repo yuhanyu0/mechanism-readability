@@ -1,6 +1,10 @@
 {
   "artifact_version": "0.1.0-public",
   "files": {
+    ".github/workflows/validate-artifact.yml": {
+      "sha256": "af78c8e57f5bd6fc2d1c18ab8f82f7454dec9a09239ba1093d1da1a6ff2bde40",
+      "bytes": 332
+    },
     ".gitignore": {
       "sha256": "edcd29509c4be2a5a42c158ee0b1764b66f2e80640497faf7eaca277b714fb64",
       "bytes": 46
@@ -10,28 +14,32 @@
       "bytes": 503
     },
     "CLAIM_BOUNDARY.md": {
-      "sha256": "2c766042175385d45116014c0e65de67eb6b3584ac86100505c253e41f679e1c",
-      "bytes": 1555
+      "sha256": "75826dd452fc1aac780e34ff110301e63c2d75800eefddf84da09306262a9693",
+      "bytes": 1948
     },
     "DATA_PROVENANCE.md": {
-      "sha256": "a140f964259a4bd89a6b866345e71e1408b5f488a91f7396a94f25d591156619",
-      "bytes": 862
+      "sha256": "4827795b970b61a6272f9aa45bd9664f543a1aca3cbdaf36210de6ac5e2e7d16",
+      "bytes": 1296
     },
     "LICENSE_DECISION.md": {
       "sha256": "8b0c22322932311c5275c9f212ac74e784b8f6c8c8f8810d7d862ca94dd7a6b2",
       "bytes": 574
     },
     "README.md": {
-      "sha256": "7abac357c1210f406a225f4163592b110a8c140b1965b31dfee4e52e64fb3294",
-      "bytes": 6365
+      "sha256": "ec2f4969138928f3394e829db04454c2efdc030b379a76c52049f6ebb365a6e8",
+      "bytes": 6954
     },
     "REPRODUCIBILITY.md": {
-      "sha256": "0f3d397d3246892aef2aadd8b20eb27ad4d4c53d5546b91adaa91913e40ac78c",
-      "bytes": 1247
+      "sha256": "cbd215e79e1b32ab97db905b03c8b2aab11af1a1631935cb6f20ccc47717b7b3",
+      "bytes": 1679
+    },
+    "figures/held_out_model_ranking.svg": {
+      "sha256": "93908081c5112c59a5544d28c7813cce9f1deb9065aba7bec6f870717e6021d7",
+      "bytes": 2977
     },
     "figures/mechanism_readability_overview.svg": {
-      "sha256": "9bd8ea52ef7d516242366ac47ab0cf4bd939ea3f191264f328c095b630d292b4",
-      "bytes": 2492
+      "sha256": "48baa0dca5666445af4a4a4313e1c36f2c54940dad05c76a06988d97fdf72a32",
+      "bytes": 2784
     },
     "protocols/R12CB_PREREGISTRATION_NOTE.md": {
       "sha256": "ea1e24a049b025128fff603ae8d352d884de8076e9b25110524c3366e5d36393",
@@ -58,8 +66,8 @@
       "bytes": 1742
     },
     "scripts/validate_artifact.py": {
-      "sha256": "c8454370486e94b96eaf50c897035f4ecd22f2eaead51757b37101135923b81b",
-      "bytes": 1587
+      "sha256": "f8b9f93f1701d852c2e881be289c87b21600ca52328ed3bb1e2bc2541a023ce8",
+      "bytes": 2206
     }
   }
 }

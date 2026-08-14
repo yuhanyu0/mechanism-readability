@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+LOCKED_SOLVER_SHA = "dcd0ca4490540af8b5e374550f2380055a613955"
 
 
 def main() -> int:
@@ -14,9 +15,11 @@ def main() -> int:
         "REPRODUCIBILITY.md",
         "DATA_PROVENANCE.md",
         "figures/mechanism_readability_overview.svg",
+        "figures/held_out_model_ranking.svg",
         "results/frozen_summary.json",
         "results/R12CB_PRIMARY_MINIMUM_INTERFACE_TABLE.csv",
         "protocols/R12CB_PREREGISTRATION_NOTE.md",
+        ".github/workflows/validate-artifact.yml",
     ]
     missing = [p for p in required if not (ROOT / p).exists()]
     if missing:
@@ -35,6 +38,14 @@ def main() -> int:
         rows = list(csv.DictReader(handle))
     if len(rows) != 12:
         raise AssertionError(f"Expected 12 R12CB budget rows, found {len(rows)}")
+
+    provenance = (ROOT / "DATA_PROVENANCE.md").read_text(encoding="utf-8")
+    if LOCKED_SOLVER_SHA not in provenance:
+        raise AssertionError("Locked solver commit SHA is missing from DATA_PROVENANCE.md")
+
+    boundary = (ROOT / "CLAIM_BOUNDARY.md").read_text(encoding="utf-8").lower()
+    if "independent external-dataset replication" not in boundary:
+        raise AssertionError("Independent-replication boundary is missing from CLAIM_BOUNDARY.md")
 
     print("Artifact validation passed.")
     print(f"R12CB budget rows: {len(rows)}")
