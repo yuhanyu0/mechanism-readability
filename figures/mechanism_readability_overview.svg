@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="white"/>
+<style>
+  .t{font-family:Arial,Helvetica,sans-serif;fill:#111}.h{font-size:30px;font-weight:700}.s{font-size:20px}.m{font-size:16px}.k{font-size:14px;fill:#444}
+  .box{fill:white;stroke:#111;stroke-width:2}.soft{fill:#f2f2f2;stroke:#111;stroke-width:2}.line{stroke:#111;stroke-width:2;fill:none}.dash{stroke:#777;stroke-width:2;stroke-dasharray:7 7;fill:none}
+</style>
+<text x="55" y="50" class="t h">Two complementary evidence tracks</text>
+<text x="55" y="82" class="t s">Prediction, model comparison, and mechanism-identifiability calibration answer different questions.</text>
+
+<text x="55" y="130" class="t s">Empirical evidence</text>
+<rect x="55" y="150" width="330" height="150" rx="10" class="box"/>
+<text x="78" y="185" class="t s">Held-out object split</text>
+<text x="78" y="220" class="t m">Thickness-conditioned steering</text>
+<text x="78" y="247" class="t m">transports within the same dataset</text>
+<text x="78" y="275" class="t k">held-out hinge R² = 0.328</text>
+<path d="M405 225 L495 225" class="line"/><polygon points="495,225 482,218 482,232" fill="#111"/>
+<rect x="515" y="150" width="630" height="150" rx="10" class="soft"/>
+<text x="540" y="185" class="t s">Frozen low-capacity model comparison</text>
+<text x="540" y="220" class="t m">Canonical fixed-boundary surface curve has predictive signal</text>
+<text x="540" y="247" class="t m">but several shallower response laws predict the held-out split better</text>
+<text x="540" y="275" class="t k">comparison does not identify the true empirical generator</text>
+
+<path d="M55 330 L1145 330" class="dash"/>
+
+<text x="55" y="375" class="t s">Controlled calibration</text>
+<rect x="55" y="395" width="470" height="160" rx="10" class="box"/>
+<text x="78" y="430" class="t s">Deliberately matched synthetic pair</text>
+<text x="78" y="465" class="t m">Same endpoints, radii, chords, angles</text>
+<text x="78" y="492" class="t m">Same complete rho → Omega law</text>
+<text x="78" y="523" class="t k">J0-J2 accuracy = 0.500</text>
+<path d="M545 475 L635 475" class="line"/><polygon points="635,475 622,468 622,482" fill="#111"/>
+<rect x="655" y="395" width="490" height="160" rx="10" class="soft"/>
+<text x="680" y="430" class="t s">Richer observation interface</text>
+<text x="680" y="465" class="t m">Local path shape + tangent information</text>
+<text x="680" y="492" class="t m">restores distinction with adequate budget</text>
+<text x="680" y="523" class="t k">calibration result, not empirical mechanism proof</text>
+
+<text x="55" y="605" class="t m">Bottom line: a low-order law can be real and predictive without uniquely determining the generator.</text>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "artifact_version": "0.1.0",
+  "frozen_on": "2026-08-14",
+  "paper_thesis": "A predictive morphological law need not identify its generative mechanism.",
+  "r9_triad_transport": {
+    "challenge_hinge_r2": 0.293811,
+    "external_final_hinge_r2": 0.327889,
+    "external_final_gain_over_constant": 0.330131,
+    "external_object_bootstrap_gain_ci95": [0.237221, 0.422327],
+    "interpretation": "transportable monotonic relation; sharp-threshold evidence modest"
+  },
+  "r10b1_external_final": {
+    "n_motifs": 5995,
+    "n_objects": 163,
+    "n_domains": 6,
+    "rho_support": [0.3, 1.6],
+    "model_r2": {
+      "weighted_p_free": 0.154647,
+      "developmental_hinge": 0.153471,
+      "linear_logrho": 0.152082,
+      "weighted_p1": 0.126642,
+      "official_surface": 0.101245,
+      "weighted_p2": 0.0775049,
+      "constant_null": -0.0104481
+    }
+  },
+  "r10c_measurement_audit": {
+    "official_effective_exponent": 1.26,
+    "short_centerline_exponent": 1.05,
+    "empirical_exponent_interval": [0.35, 0.45],
+    "conclusion": "plausible observer attenuation insufficient; severe degradation can mimic shallowness only while degrading motif identity"
+  },
+  "r12cb_matched_pair": {
+    "max_declared_low_order_difference": 0.0,
+    "max_common_rendering_accuracy": 0.5,
+    "max_native_j0_j2_accuracy": 0.5,
+    "identifiable_j3_j4_budget_cells": 21,
+    "conclusion": "local path shape and tangent history are the first boundary-stable diagnostic channels in the declared interface family"
+  },
+  "claim_boundary": {
+    "empirical_generator_identified": false,
+    "surface_optimization_generally_falsified": false,
+    "universal_j3_sufficiency": false,
+    "exact_noncanonical_surface_boundary_family_resolved": false
+  }
+}
